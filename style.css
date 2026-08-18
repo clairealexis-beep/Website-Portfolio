@@ -1658,3 +1658,160 @@ transform:translateY(-5px);
 background:#c56b84;
 
 }
+/* ========================================
+   DARK MODE
+======================================== */
+
+.theme-toggle {
+    border: none;
+    background: #f6eef1;
+    color: #5f4148;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 20px;
+}
+
+.theme-toggle:hover {
+    transform: rotate(20deg) scale(1.08);
+}
+
+
+/* DARK MODE COLORS */
+
+body.dark-mode {
+    background: #17131b;
+    color: #f4edf6;
+}
+
+body.dark-mode header {
+    background: #211a27;
+    box-shadow: 0 10px 30px rgba(0,0,0,.35);
+}
+
+body.dark-mode .logo h2 {
+    color: #f3dce8;
+}
+
+body.dark-mode .logo p {
+    color: #d98eae;
+}
+
+body.dark-mode nav a {
+    color: #eee4ef;
+}
+
+body.dark-mode nav a:hover,
+body.dark-mode nav a.active {
+    color: #e08cab;
+}
+
+body.dark-mode .theme-toggle {
+    background: #302438;
+    color: #f4dce8;
+}
+
+
+/* HERO */
+
+body.dark-mode .hero h1 {
+    color: #f7edf4;
+}
+
+body.dark-mode .hero p {
+    color: #c9bdca;
+}
+
+body.dark-mode .hero h2 {
+    color: #e08cab;
+}
+
+
+/* GENERAL SECTIONS */
+
+body.dark-mode section h2 {
+    color: #f3e5ee;
+}
+
+
+/* ABOUT */
+
+body.dark-mode .about-text p {
+    color: #c9bdca;
+}
+
+body.dark-mode .facts div {
+    background: #211a27;
+    color: #f3e5ee;
+    box-shadow: 0 10px 25px rgba(0,0,0,.25);
+}
+
+body.dark-mode .facts div p {
+    color: #c9bdca;
+}
+
+
+/* SKILLS */
+
+body.dark-mode .skill-card {
+    background: #211a27;
+    color: #f3e5ee;
+    box-shadow: 0 10px 25px rgba(0,0,0,.25);
+}
+
+body.dark-mode .skill-card:hover {
+    background: #d97d96;
+    color: white;
+}
+
+
+/* PROJECTS */
+
+body.dark-mode .project-card {
+    background: #211a27;
+    box-shadow: 0 15px 35px rgba(0,0,0,.3);
+}
+
+body.dark-mode .project-card h3 {
+    color: #f3e5ee;
+}
+
+body.dark-mode .project-card p {
+    color: #c9bdca;
+}
+
+body.dark-mode .project-subtitle {
+    color: #c9bdca;
+}
+
+
+/* CERTIFICATES */
+
+body.dark-mode .certificate {
+    background: #211a27;
+    color: #f3e5ee;
+    box-shadow: 0 15px 35px rgba(0,0,0,.3);
+}
+
+
+/* CONTACT */
+
+body.dark-mode .contact p {
+    color: #c9bdca;
+}
+
+body.dark-mode .socials a {
+    background: #211a27;
+    color: #e08cab;
+    box-shadow: 0 10px 25px rgba(0,0,0,.25);
+}
+
+
+/* SCROLLBAR */
+
+body.dark-mode ::-webkit-scrollbar-track {
+    background: #211a27;
+}
