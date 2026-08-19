@@ -1815,3 +1815,23 @@ body.dark-mode .socials a {
 body.dark-mode ::-webkit-scrollbar-track {
     background: #211a27;
 }
+
+/* Download CV button */
+.hero-buttons{
+    display:flex;
+    gap:16px;
+    flex-wrap:wrap;
+    margin-top:28px;
+}
+
+.hero-buttons .btn{
+    padding:14px 28px;
+    border-radius:50px;
+    font-weight:600;
+    text-decoration:none;
+    transition:0.3s ease;
+}
+
+.hero-buttons .btn:hover{
+    transform:translateY(-3px);
+}
