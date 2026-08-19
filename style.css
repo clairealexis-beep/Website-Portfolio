@@ -1817,21 +1817,27 @@ body.dark-mode ::-webkit-scrollbar-track {
 }
 
 /* Download CV button */
-.hero-buttons{
-    display:flex;
-    gap:16px;
-    flex-wrap:wrap;
-    margin-top:28px;
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
 }
 
-.hero-buttons .btn{
-    padding:14px 28px;
-    border-radius:50px;
-    font-weight:600;
-    text-decoration:none;
-    transition:0.3s ease;
+.hero-buttons .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 24px;
+    min-height: 48px;
+    border-radius: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
 }
 
-.hero-buttons .btn:hover{
-    transform:translateY(-3px);
+.hero-buttons .secondary {
+    display: inline-flex;
 }
